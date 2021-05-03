@@ -8,9 +8,7 @@ const dotenv = require('dotenv')
 dotenv.config({path: './config/config.env'})
 
 function App() {
-    // eslint-disable-next-line
     const [eventData, setEventData] = useState([])
-    // eslint-disable-next-line
     const [loading, setLoading] = useState(false)
     useEffect(() => {
         const fetchEvents = async () =>{

@@ -4,6 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+create a file on the src/config/config.env
+in there put the NODE_ENV = development REACT_APP_SECURE_KEY = enter your key her
+
 In the project directory, you can run:
 
 ### `npm start`
